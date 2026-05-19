@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De: Gigi</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-heart"></i>
+            <p>Lana's B-day<span class="highlight">| 2026</span></p>
+        </div>
+    </header>
+
+    <main>
+        <section class="memories" id="memories">
+            <div class="memorias">
+                <div class="text-memories">
+                    <h2>Memórias</h2>
+                    <p>Pra você lembrar de mim...</p>
+                </div>
+
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1" checked>
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <input type="radio" name="radio-btn" id="radio5">
+                    <input type="radio" name="radio-btn" id="radio6">
+                    <input type="radio" name="radio-btn" id="radio7">
+                    <input type="radio" name="radio-btn" id="radio8">
+                    <input type="radio" name="radio-btn" id="radio9">
+                    <input type="radio" name="radio-btn" id="radio10">
+                    <input type="radio" name="radio-btn" id="radio11">
+                    <input type="radio" name="radio-btn" id="radio12">
+                    <input type="radio" name="radio-btn" id="radio13">
+                    <input type="radio" name="radio-btn" id="radio14">
+
+                    <div class="slide first">
+                        <img src="assets/memories1.jpg" alt="Memória 1">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/memories2.jpg" alt="Memória 2">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/memories3.jpg" alt="Memória 3">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/memories4.jpg" alt="Memória 4">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/memories5.jpg" alt="Memória 5">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/memories6.jpg" alt="Memória 6">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/memories7.jpg" alt="Memória 7">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/memories8.jpg" alt="Memória 8">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/memories9.jpg" alt="Memória 9">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/memories10.jpg" alt="Memória 10">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/memories11.jpg" alt="Memória 11">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/memories12.jpg" alt="Memória 12">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/memories13.jpg" alt="Memória 13">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/memories14.jpg" alt="Memória 14">
+                    </div>
+
+                    <div class="navigation-auto">
+                        <div class="auto-btn autoBtn1"></div>
+                        <div class="auto-btn autoBtn2"></div>
+                        <div class="auto-btn autoBtn3"></div>
+                        <div class="auto-btn autoBtn4"></div>
+                        <div class="auto-btn autoBtn5"></div>
+                        <div class="auto-btn autoBtn6"></div>
+                        <div class="auto-btn autoBtn7"></div>
+                        <div class="auto-btn autoBtn8"></div>
+                        <div class="auto-btn autoBtn9"></div>
+                        <div class="auto-btn autoBtn10"></div>
+                        <div class="auto-btn autoBtn11"></div>
+                        <div class="auto-btn autoBtn12"></div>
+                        <div class="auto-btn autoBtn13"></div>
+                        <div class="auto-btn autoBtn14"></div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="python" id="python">
+            <div class="card-exe">
+                <div class="terminal-header">
+                    <div class="window-controls" aria-hidden="true">
+                        <span class="control close"></span>
+                        <span class="control minimize"></span>
+                        <span class="control maximize"></span>
+                    </div>
+                    <p>AguaViva.py</p>
+                </div>
+
+                <div class="terminal-body" aria-label="Execucao do arquivo AguaViva.py">
+                    <p class="terminal-comment"># Conteudo e trechos do script</p>
+                    <p><span class="keyword">import</span> momentos, memorias</p>
+                    <p class="terminal-run">&gt;&gt;&gt; Iniciando execucao do script python...</p>
+
+                    <div class="terminal-output">
+                        <p class="song-title">♫ Agua-Viva</p>
+                        <p class="song-artist">ANAVITORIA</p>
+
+                        <div class="terminal-progress">
+                            <span id="pythonCurrentTime">0:00</span>
+                            <div class="python-progress-track">
+                                <span id="pythonProgressFill"></span>
+                                <span id="pythonProgressDot"></span>
+                            </div>
+                            <span>2:49</span>
+                        </div>
+
+                        <p id="pythonLyric" class="python-lyric"></p>
+                        <p id="pythonFinalMessage" class="python-final-message">Parabens Laninha 🎉</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="music" id="music">
+            
+            <div class="music-icon">
+                <i class="fa-solid fa-music"></i>
+            </div>
+
+            <div class="music-info">
+                <span>OUVINDO AGORA</span>
+                <h3>Água Viva</h3>
+                <p>ANAVITÓRIA</p>
+
+                <div class="player">
+                    <button id="playBtn">
+                        <i class="fa-solid fa-play"></i>
+                    </button>
+
+                    <input type="range" id="progress" value="0">
+
+                    <span id="currentTime">0:00</span>
+                </div>
+            </div>
+
+            <audio id="audio">
+                <source src="assets/agua_viva.mp3" type="audio/mpeg">
+                <source src="assets/agua_viva.ogg" type="audio/ogg">
+            </audio>
+        
+        </section>
+    </main>
+
+    <footer>
+       <p>Parabens duplinha!</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

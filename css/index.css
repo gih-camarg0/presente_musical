@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #dfe5eb;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Card principal */
+.card {
+    width: 450px;
+    background: #f8f8f8;
+    border-radius: 38px;
+    padding: 45px 40px;
+    text-align: center;
+    position: relative;
+    border-top: 5px solid transparent;
+    background-image: linear-gradient(#f8f8f8, #f8f8f8), linear-gradient(90deg, #2f61ff, #56d8ff);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+
+    box-shadow:0 18px 35px rgba(0,0,0,0.10);
+}
+
+/* Ícone */
+.icon {
+    width: 78px;
+    height: 78px;
+    margin: 0 auto 35px;
+    background: #2f61ff;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:0 10px 20px rgba(47, 97, 255, 0.25);
+}
+
+.icon i {
+    color: white;
+    font-size: 34px;
+}
+
+/* Título */
+.title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1e3f95;
+    margin-bottom: 5px;
+}
+
+/* Nome */
+.nome {
+    font-size: 58px;
+    font-weight: 700;
+    font-style: italic;
+    color: #5b7cff;
+    font-family: Georgia, 'Times New Roman', serif;
+    margin-bottom: 25px;
+}
+
+.highlight {
+    color: #5b7cff;
+}
+
+/* Descrição */
+.desc {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #5f7bda;
+    margin-bottom: 45px;
+}
+
+/* Botão */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 230px;
+    height: 56px;
+    background: #2f61ff;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 16px;
+    transition: 0.3s ease;
+    box-shadow: 0 12px 25px rgba(47, 97, 255, 0.30);
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    background: #2455ee;
+}
