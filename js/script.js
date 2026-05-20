@@ -68,7 +68,9 @@ const pythonProgressDot = document.getElementById("pythonProgressDot");
 const pythonFinalMessage = document.getElementById("pythonFinalMessage");
 
 const pythonLyrics = "As hastes dos seus óculos estão na mesa|Os polegares neblinando as lentes|O nosso passado me olha das fotografias|Eu juro, já senti certeza|Os meus anseios tão inconsistentes|Um dia, o concreto, no outro, tudo é tão fugaz|Se eu puder ter um pedido a mais|Guarde o melhor que tivemos|As confidências, mesmo que banais|Eu deixo em segredo|Nem todo mundo tem a sorte que nós dois tivemos juntos|E é tão bom saber que alguém que me conhece assim tão bem existe|O banco do meu carro inclina|Mas nele você não se deita|Eu passo em frente à sua rua|Mas não ligo a seta|E os hábitos que desenhamos|Eu desaprendo todo dia|As faltas vão doendo menos, é o que você diria|Se eu puder ter um pedido a mais|Guarde o melhor que tivemos|As confidências, mesmo que banais|Eu deixo em segredo|Nem todo mundo tem a sorte que nós dois tivemos juntos|E é tão bom saber que alguém que me conhece assim tão bem existe".split("|");
+// const pythonLyrics = "".split("|");
 const pythonDuration = 169;
+// const pythonDuration = 216;
 let pythonLineIndex = 0;
 let pythonCharIndex = 0;
 
@@ -88,9 +90,9 @@ function updatePythonProgress(){
     pythonProgressDot.style.left = percent;
 }
 
-const pythonLyricsStartDelay = 10000;
+const pythonLyricsStartDelay = 12000;
 
-const pythonSpecialPhraseDelay = 12000; // 12 segundos
+const pythonSpecialPhraseDelay = 12000;
 
 
 function typePythonExecution(){
